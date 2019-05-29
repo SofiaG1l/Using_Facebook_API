@@ -1,0 +1,28 @@
+NAME,alpha-2,alpha-3,country-code,iso_3166-2,alpha-2,region,sub-region
+Austria,AT,AUT,40,ISO 3166-2:AT,AT,Europe,Western Europe
+Belgium,BE,BEL,56,ISO 3166-2:BE,BE,Europe,Western Europe
+Bulgaria,BG,BGR,100,ISO 3166-2:BG,BG,Europe,Eastern Europe
+Croatia,HR,HRV,191,ISO 3166-2:HR,HR,Europe,Southern Europe
+Czechia,CZ,CZE,203,ISO 3166-2:CZ,CZ,Europe,Eastern Europe
+Denmark,DK,DNK,208,ISO 3166-2:DK,DK,Europe,Northern Europe
+Estonia,EE,EST,233,ISO 3166-2:EE,EE,Europe,Northern Europe
+Finland,FI,FIN,246,ISO 3166-2:FI,FI,Europe,Northern Europe
+France,FR,FRA,250,ISO 3166-2:FR,FR,Europe,Western Europe
+Germany,DE,DEU,276,ISO 3166-2:DE,DE,Europe,Western Europe
+Greece,GR,GRC,300,ISO 3166-2:GR,GR,Europe,Southern Europe
+Hungary,HU,HUN,348,ISO 3166-2:HU,HU,Europe,Eastern Europe
+Ireland,IE,IRL,372,ISO 3166-2:IE,IE,Europe,Northern Europe
+Italy,IT,ITA,380,ISO 3166-2:IT,IT,Europe,Southern Europe
+Latvia,LV,LVA,428,ISO 3166-2:LV,LV,Europe,Northern Europe
+Lithuania,LT,LTU,440,ISO 3166-2:LT,LT,Europe,Northern Europe
+Luxembourg,LU,LUX,442,ISO 3166-2:LU,LU,Europe,Western Europe
+Malta,MT,MLT,470,ISO 3166-2:MT,MT,Europe,Southern Europe
+Netherlands,NL,NLD,528,ISO 3166-2:NL,NL,Europe,Western Europe
+Poland,PL,POL,616,ISO 3166-2:PL,PL,Europe,Eastern Europe
+Portugal,PT,PRT,620,ISO 3166-2:PT,PT,Europe,Southern Europe
+Romania,RO,ROU,642,ISO 3166-2:RO,RO,Europe,Eastern Europe
+Slovakia,SK,SVK,703,ISO 3166-2:SK,SK,Europe,Eastern Europe
+Slovenia,SI,SVN,705,ISO 3166-2:SI,SI,Europe,Southern Europe
+Spain,ES,ESP,724,ISO 3166-2:ES,ES,Europe,Southern Europe
+Sweden,SE,SWE,752,ISO 3166-2:SE,SE,Europe,Northern Europe
+United Kingdom of Great Britain and Northern Ireland,GB,GBR,826,ISO 3166-2:GB,GB,Europe,Northern Europe
