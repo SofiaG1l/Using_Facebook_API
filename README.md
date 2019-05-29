@@ -22,13 +22,14 @@ Requirements
 1.  Have a Facebook account
 2.  Set up a Facebook Marketing App
 3.  Obtain the Token and Creation Act of your Facebook Marketing App
-4.  Install the next R packages:
+4.  Check the version of the API that you are using
+5.  Install the next R packages:
     -   tidyverse
     -   jsonlite
     -   httr
-5.  Knowledge of R
+6.  Knowledge of R
 
-For the steps 1 to 3 you can check [**First\_Step.pdf**](https://github.com/SofiaG1l/Using_Facebook_API/blob/master/First_Step.pdf "First Step").
+For the steps 1 to 4 you can check [**First\_Step.pdf**](https://github.com/SofiaG1l/Using_Facebook_API/blob/master/First_Step.pdf "First Step"), once you have them save them in a txt, we will be using that information for accessing the Facebook API.
 
 Retrieving Data
 ===============
@@ -41,7 +42,7 @@ Would you like to check more information about the Facebook Marketing API or abo
 First lets try using a browser:
 
 ``` r
-https://graph.facebook.com/v3.2/act_<<creation_act>>/delivery_estimate?access_token=<<TOKEN>>&include_headers=false&method=get&pretty=0&suppress_http_code=1&method=get&optimization_goal=REACH&pretty=0&suppress_http_code=1&targeting_spec={"geo_locations":{"countries":["MX"]},"genders":[1] ,"age_min":16, "age_max":24}
+https://graph.facebook.com/<<vX.X>>/act_<<creation_act>>/delivery_estimate?access_token=<<TOKEN>>&include_headers=false&method=get&pretty=0&suppress_http_code=1&method=get&optimization_goal=REACH&pretty=0&suppress_http_code=1&targeting_spec={"geo_locations":{"countries":["MX"]},"genders":[1] ,"age_min":16, "age_max":24}
 ```
 
 2. Retrieving in a Programmatic Way
@@ -60,8 +61,10 @@ The way we will pass our credentials to Facebook is through the string that we w
 token="Your Token"
 
 act="Your Creation Act"
+
+version="vX.X" # replace the X with your values
     
-Credentials=paste0('https://graph.facebook.com/v3.2/act_',act,'/delivery_estimate?access_token=',token,'&include_headers=false&method=get&optimization_goal=REACH&pretty=0&suppress_http_code=1')
+Credentials=paste0('https://graph.facebook.com/',version,'/act_',act,'/delivery_estimate?access_token=',token,'&include_headers=false&method=get&optimization_goal=REACH&pretty=0&suppress_http_code=1')
 ```
 
 3. Total Population broken down by age, gender and country
@@ -108,7 +111,6 @@ You can find more information about these and other parameters [here](https://de
 Change the parameters in the code in order to retrieve the next data:
 
 *The number of women and men between 20 and 55 years old that live in Spain and Germany and are Facebook users.*
-
 
 4. Total Population that match certain characteristics broken down by age, gender and country
 ---------------------------------------------------------------------------------------------
@@ -194,7 +196,7 @@ Code the next query: *The number of men between 50 and 60 years old that live in
 So Far, So Good?
 ================
 
-Let's challenge your understanding on retrieving data. In the next steps you will recreate part of the code that was used for the paper [*Demographic Diferentials in Facebook Usage Around the World*](https://github.com/SofiaG1l/Demographic-Differentials-in-Facebook-Usage-Around-the-World "Demographic Diferentials in Facebook Usage Around the World"), but just for some of the countries in *Country\_Codes.csv*.
+Let's challenge your understanding on retrieving data. In the next steps you will recreate part of the code that was used for the paper [*Demographic Diferentials in Facebook Usage Around the World*](https://github.com/SofiaG1l/Demographic-Differentials-in-Facebook-Usage-Around-the-World/blob/master/Demog_FB_Dif.pdf "Demographic Diferentials in Facebook Usage Around the World"), but just for some of the countries in *Country\_Codes.csv*.
 
 Basic Demographic Information
 -----------------------------
@@ -219,4 +221,4 @@ Now we are going to restrict the population to those that match specific charact
 The Solutions
 -------------
 
-You can find the complete code for replicating the [*Demographic Diferentials in Facebook Usage Around the World*](https://github.com/SofiaG1l/Demographic-Differentials-in-Facebook-Usage-Around-the-World "Demographic Diferentials in Facebook Usage Around the World") work from June 6th, 2019 onwards. (Yes, one day after the workshop!)
+You can find the complete code for replicating the [*Demographic Diferentials in Facebook Usage Around the World*](https://github.com/SofiaG1l/Demographic-Differentials-in-Facebook-Usage-Around-the-World/blob/master/Demog_FB_Dif.pdf "Demographic Diferentials in Facebook Usage Around the World") work from June 6th, 2019 onwards. (Yes, one day after the workshop!)
