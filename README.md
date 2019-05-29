@@ -109,6 +109,7 @@ Change the parameters in the code in order to retrieve the next data:
 
 *The number of women and men between 20 and 55 years old that live in Spain and Germany and are Facebook users.*
 
+
 4. Total Population that match certain characteristics broken down by age, gender and country
 ---------------------------------------------------------------------------------------------
 
@@ -193,7 +194,7 @@ Code the next query: *The number of men between 50 and 60 years old that live in
 So Far, So Good?
 ================
 
-Let's challenge your understanding on retrieving data. In the next steps you will recreate part of the code that was used for the paper [*Demographic Diferentials in Facebook Usage Around the World*](https://github.com/SofiaG1l/Demographic-Differentials-in-Facebook-Usage-Around-the-World/blob/master/Demog_FB_Dif.pdf "Demographic Diferentials in Facebook Usage Around the World"), but just for some of the countries in *Country\_Codes.csv*.
+Let's challenge your understanding on retrieving data. In the next steps you will recreate part of the code that was used for the paper [*Demographic Diferentials in Facebook Usage Around the World*](https://github.com/SofiaG1l/Demographic-Differentials-in-Facebook-Usage-Around-the-World "Demographic Diferentials in Facebook Usage Around the World"), but just for some of the countries in *Country\_Codes.csv*.
 
 Basic Demographic Information
 -----------------------------
@@ -218,4 +219,4 @@ Now we are going to restrict the population to those that match specific charact
 The Solutions
 -------------
 
-You can find the complete code for replicating the [*Demographic Diferentials in Facebook Usage Around the World*](https://github.com/SofiaG1l/Demographic-Differentials-in-Facebook-Usage-Around-the-World/blob/master/Demog_FB_Dif.pdf "Demographic Diferentials in Facebook Usage Around the World") work from June 6th, 2019 onwards. (Yes, one day after the workshop!)
+You can find the complete code for replicating the [*Demographic Diferentials in Facebook Usage Around the World*](https://github.com/SofiaG1l/Demographic-Differentials-in-Facebook-Usage-Around-the-World "Demographic Diferentials in Facebook Usage Around the World") work from June 6th, 2019 onwards. (Yes, one day after the workshop!)
