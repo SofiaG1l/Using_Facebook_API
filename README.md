@@ -21,8 +21,8 @@ Requirements
 
 1.  Have a Facebook account
 2.  Set up a Facebook Marketing App
-3.  Obtain the Token and Creation Act of your Facebook Marketing App
-4.  Check the version of the API that you are using
+3.  Check the version of the API that you are using
+4.  Obtain the Token and Creation Act of your Facebook Marketing App
 5.  Install the next R packages:
     -   tidyverse
     -   jsonlite
