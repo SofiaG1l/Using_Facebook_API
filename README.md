@@ -259,5 +259,5 @@ Now we are going to restrict the population to those that match specific charact
 The Solutions
 -------------
 
-You can find the complete code for replicating the [*Demographic Diferentials in Facebook Usage Around the World*](https://arxiv.org/abs/1905.09105 "Demographic Diferentials in Facebook Usage Around the World") [here]( Using_Facebook_API/BasicStepsFBAPI_Answers.R "Solutions").
+You can find the complete code for replicating the [*Demographic Diferentials in Facebook Usage Around the World*](https://arxiv.org/abs/1905.09105 "Demographic Diferentials in Facebook Usage Around the World") [here](https://github.com/SofiaG1l/Using_Facebook_API/blob/master/BasicStepsFBAPI_Answers.R "Solutions").
 
