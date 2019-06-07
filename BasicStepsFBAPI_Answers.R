@@ -8,7 +8,7 @@
 # 
 # First lets try using a browser, replace your data in the next URL:
 
-# https://graph.facebook.com/v3.2/act_1856452544467827/delivery_estimate?access_token=EAAey5JZCLhhMBAM4Ow1744YOAU1HKCnMotLRBCuWg9qcVyihyxVgVWnMP1KijCiqgTAOrZC2eXaW02eYt6275UZBu0m5Bc4hwrxVCgs2AGXxx5D5vEsgD5UkBJwYpS5X0YAnOpypclNX0sAxNFKce8uGoPrhWaUGzhZAi67xJaYgSHyTQDItvybYofhBuycZD&include_headers=false&method=get&pretty=0&suppress_http_code=1&method=get&optimization_goal=REACH&pretty=0&suppress_http_code=1&targeting_spec={"geo_locations":{"countries":["MX"]},"genders":[1] ,"age_min":16, "age_max":24}
+# https://graph.facebook.com/<<vX.X>>/act_<<ACT>>/delivery_estimate?access_token=<<TOKEN>>&include_headers=false&method=get&pretty=0&suppress_http_code=1&method=get&optimization_goal=REACH&pretty=0&suppress_http_code=1&targeting_spec={"geo_locations":{"countries":["MX"]},"genders":[1] ,"age_min":16, "age_max":24}
 
 
 #### 2. Retrieving in a Programmatic Way ####
