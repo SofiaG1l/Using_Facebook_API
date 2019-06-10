@@ -234,7 +234,7 @@ Code the next query: *The number of women between 50 and 60 years old that live 
 So Far, So Good?
 ================
 
-Let's challenge your understanding on retrieving data. In the next steps you will recreate part of the code that was used for the paper [*Demographic Diferentials in Facebook Usage Around the World*](https://arxiv.org/abs/1905.09105 "Demographic Diferentials in Facebook Usage Around the World"), but just for some of the countries in *Country\_Codes.csv*.
+Let's challenge your understanding on retrieving data. In the next steps you will recreate part of the code that was used for the paper [*Demographic Diferentials in Facebook Usage Around the World*](https://aaai.org/ojs/index.php/ICWSM/article/view/3263 "Demographic Diferentials in Facebook Usage Around the World"), but just for some of the countries in *Country\_Codes.csv*.
 
 Basic Demographic Information
 -----------------------------
@@ -259,5 +259,5 @@ Now we are going to restrict the population to those that match specific charact
 The Solutions
 -------------
 
-You can find the complete code for replicating the [*Demographic Diferentials in Facebook Usage Around the World*](https://arxiv.org/abs/1905.09105 "Demographic Diferentials in Facebook Usage Around the World") [here](https://github.com/SofiaG1l/Using_Facebook_API/blob/master/BasicStepsFBAPI_Answers.R "Solutions").
+You can find the complete code for replicating the [*Demographic Diferentials in Facebook Usage Around the World*](https://aaai.org/ojs/index.php/ICWSM/article/view/3263 "Demographic Diferentials in Facebook Usage Around the World") [here](https://github.com/SofiaG1l/Using_Facebook_API/blob/master/BasicStepsFBAPI_Answers.R "Solutions").
 
