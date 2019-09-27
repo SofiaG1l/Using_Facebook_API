@@ -31,6 +31,8 @@ Requirements
 
 For the steps 1 to 4 you can check [**First\_Step.pdf**](https://github.com/SofiaG1l/Using_Facebook_API/blob/master/First_Step.pdf "First Step"), once you have them save them in a txt, we will be using that information for accessing the Facebook API.
 
+If you are not a R user, you can find a python tutorial [**here**](https://github.com/carolcoimbra/facebook-ads "facebook-ads").
+
 Retrieving Data
 ===============
 
